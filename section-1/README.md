@@ -180,8 +180,44 @@ const printTenTimes = () => {
 ```
 
 Above [examples taken from quarian github](https://github.com/quarian/mimmit-koodaa-trak-beginner).
+## Chapter 11 - Maps
 
-## Chapter 11 - Merge all this knowledge to create your own thing
+Maps are used to map keys to values. 
+
+```
+const m0 = new Map();
+m0.set("frog", "awesome");
+console.log(` ${m0.get("frog")}`);
+```
+
+
+Iterating through the contents is simple and works as expected.
+
+```
+const m = new Map();
+m.set("hello", ["a", "b", "c"]);
+m.set("berries", ["blueberry", "strawberry", "greenberry"]);
+
+// Iterate through the keys in the map
+for (const key of m.keys()) {
+  console.log(`found key ${key}`);
+}
+
+// Iterate through the values in the map
+for (const value of m.values()) {
+  console.log(`found value ${value}`);
+}
+
+// Iterate through the key/value pairs in the map, using modern js destructuring syntax
+for (const [key, value] of m.entries()) {
+  console.log(`key = [${key}] value: ${value}`);
+}
+
+
+```
+
+
+## Chapter 12 - Merge all this knowledge to create your own thing
 
 This is an example that summarizes all the things we've been working on so far. Take it as a guideline to create your own set of scripts!
 
