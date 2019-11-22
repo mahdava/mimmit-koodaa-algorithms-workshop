@@ -6,12 +6,11 @@ This section will go through the basics of JavaScript providing useful resources
 
 ## Vocabulary
 
-**Expression:**  
-**Value:**  
-**Operator:**  
-**Syntax:**  
-**Algorithm:**  
-**Data Structure:**
+**Expression:** An expression is any valid set of literals, variables, operators, and expressions that evaluates to a single value. The value may be a number, a string, or a logical value. [Read more about expressions here](http://lib.ru/JAVA/javascr/expr.html).  
+**Operator:** An assignment operator assigns a value to its left operand based on the value of its right operand.  
+**Syntax:** We often talk about different syntax between ES5 and ES6, the syntax is how the language is written. For the most, ES5 and ES6 share a lot, however there are some differences that we would like for you to notice so that you're better acquainted with ES6.  
+**Data Structure:** A data structure is a particular way of organizing data in a computer so that it can be used effectively.  
+**Algorithms:** An algorithm is a step by step method of solving a problem.
 
 ## Syntax and styles
 
@@ -97,6 +96,8 @@ let apples = 10; const applesStack = [1, 4, 5];
 
 ## Chapter 4 - Operators
 
+An assignment operator assigns a value to its left operand based on the value of its right operand. The basic assignment operator is equal `=`, which assigns the value of its right operand to its left operand.
+
 Please read [this page about operations in JavaScript](https://www.w3schools.com/js/js_operators.asp).
 
 ## Chapter 5 - Arrays
@@ -175,6 +176,8 @@ const printTenTimes = () => {
   }
 };
 ```
+
+Above [examples taken from quarian github](https://github.com/quarian/mimmit-koodaa-trak-beginner).
 
 ## Chapter 11 - Merge all this knowledge to create your own thing
 
