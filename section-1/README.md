@@ -277,7 +277,7 @@ JavaScript arrays have a lot of other properties and methods that you can use fo
 
 For more information, read [this page about arrays](https://www.w3schools.com/js/js_arrays.asp). There's also [this page for a more in-depth reading about arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
-You can also read [this page on how to use arrays](https://www.w3schools.com/js/js_array_methods.asp) and check this page for [a list of other methods applicable to arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods).
+You can also read [this page on how to use array methods](https://www.w3schools.com/js/js_array_methods.asp) and check this page for [a list of other methods applicable to arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods).
 
 ---
 
