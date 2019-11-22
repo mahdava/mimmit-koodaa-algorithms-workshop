@@ -259,21 +259,23 @@ JavaScript arrays have a lot of other properties and methods that you can use fo
 | ------------------ | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | `length`           | Returns the number of values in an array.                                                               | `cities.length; // 4`                                                        |
 | `indexOf`          | Returns the first index at which a given element can be found in the array, or -1 if it is not present. | `numberOfDaysInMonths.indexOf(30); // 3` <br>`cities.indexOf("Oslo"); // -1` |
-| `find`             |                                                                                                         | `a`                                                                          |
-| `splice`           |                                                                                                         | `a`                                                                          |
-| `concat`           |                                                                                                         | `a`                                                                          |
-| `toString`         |                                                                                                         | `a`                                                                          |
-| `join`             |                                                                                                         | `a`                                                                          |
-| `push`             |                                                                                                         | `a`                                                                          |
-| `pop`              |                                                                                                         | `a`                                                                          |
-| `sort`             |                                                                                                         | `a`                                                                          |
-| `reverse`          |                                                                                                         | `a`                                                                          |
-| `forEach`          |                                                                                                         | `a`                                                                          |
-| `some`             |                                                                                                         | `a`                                                                          |
-| `every`            |                                                                                                         | `a`                                                                          |
-| `map`              |                                                                                                         | `a`                                                                          |
-| `filter`           |                                                                                                         | `a`                                                                          |
-| `reduce`           |                                                                                                         | `a`                                                                          |
+| `find`             | Returns the value of the first element in an array that pass a test | `a`                                                                          |
+| `splice`           | Adds/Removes elements from an array | `a`                                                                          |
+| `concat`           | Joins two or more arrays, and returns a copy of the joined arrays | `a`                                                                          |
+| `toString`         | Converts an array to a string, and returns the result | `a`                                                                          |
+| `join`             | Joins all elements of an array into a string | `a`                                                                          |
+| `push`             | Adds new elements to the end of an array, and returns the new length | `a`                                                                          |
+| `pop`              | Removes the last element of an array, and returns that element | `a`                                                                          |
+| `sort`             | Sorts the elements of an array | `a`                                                                          |
+| `reverse`          | Reverses the order of the elements in an array | `a`                                                                          |
+| `forEach`          | Calls a function for each array element | `a`                                                                          |
+| `some`             | Checks if any of the elements in an array pass a test | `a`                                                                          |
+| `every`            | Checks if every element in an array pass a test | `a`                                                                          |
+| `map`              | Creates a new array with the result of calling a function for each array element | `a`                                                                          |
+| `filter`           | Creates a new array with every element in an array that pass a test | `a`                                                                          |
+| `reduce`           | Reduce the values of an array to a single value (going left-to-right) | `a`                                                                          |
+
+Part of the content from [w3school array methods page](https://www.w3schools.com/jsref/jsref_obj_array.asp).
 
 For more information, read [this page about arrays](https://www.w3schools.com/js/js_arrays.asp). There's also [this page for a more in-depth reading about arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
