@@ -46,3 +46,5 @@
 // Exercise 6b: The person you just created has had a sudden birthday, add +1 to the age using operations
 
 // Exercise 6c: Create an array of person objects like the one we created before (All people need to have firstName, lastName and age)
+
+//////////////////////////////////////////////////////////////////////////

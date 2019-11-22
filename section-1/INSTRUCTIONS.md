@@ -21,7 +21,7 @@ To familiarize with JavaScript syntax, please [read this page on how JavaScript 
 
 In JavaScript, you can comment code lines with `//` to comment one single line, and `/*` with `*/` to mark more than one line of code to comment.
 
-`// I'm a single commented line
+`// I'm a single commented line`
 
 ```
 /*
@@ -46,21 +46,21 @@ While we're using Code Sandbox, we can open the in-built console tab!
 
 `console.log("Hi, this is a console log message");`
 
-You can also write direct statements in the console log, such as `2+2`.
+You can also write direct statements in the console log, such as `2 + 2`.
 
 The console allows you to also test arbitrary code that is not written within the page:
 
 **JavaScript ES5**  
-`function multiplyNumbers(x, y) { return x \* y; }`
+`function multiplyNumbers(x, y) { return x * y; }`
 
 **JavaScript ES6**  
-`const multiplyNumbersES6 = (x, y) => { return x \* y; };`
+`const multiplyNumbersES6 = (x, y) => { return x * y; };`
 
-Note: ES6 syntax works only in the actual Chrome Dev tools console, but that's the better way to write code, as ES5 lacks few good features.
+Note: ES6 syntax works only in the actual Chrome Dev tools console, but that's the better way to write code, as ES5 lacks few good features. You can of course write ES6 code in the actual code editor of CodeSandbox.
 
-Write/Copy the following function inside the console (without comments delimiters):
+Write/Copy the following function inside the console:
 
-`function multiplyNumbers(x, y) { return x \* y; }`
+`function multiplyNumbers(x, y) { return x * y; }`
 
 The console will return a message **undefined** because the entered code didn't generate any value to display, but if you now type
 
@@ -68,7 +68,7 @@ The console will return a message **undefined** because the entered code didn't 
 
 the console will reply with 6.
 
-While working with algorithms, using console.log() becomes useful to check that the code is looping the information correctly and that your code is returning the right values at all the stages.
+While working with algorithms, using `console.log()` becomes useful to check that the code is looping the information correctly and that your code is returning the right values at all the stages.
 
 ## Chapter 3 - Variable types and declaration
 
@@ -90,7 +90,10 @@ anything else
 
 If you are familiar with another programming language, or if you have time and feel curious, I suggest reading [this article about JavaScript variable declarations and scope](https://blog.pragmatists.com/let-your-javascript-variables-be-constant-1633e56a948d) to familiarize with variable scope and better understand the difference between the old `var`, `const` and `let`. For the sake of this workshop, you mainly need to know that you can declare variables with `const`and `let` keywords - feel free to ask to a coach about the differences between the two.
 
-`const onePoundInKg = 0,453592; let apples = 10; const applesStack = [1, 4, 5];`
+```
+const onePoundInKg = 0,453592;
+let apples = 10; const applesStack = [1, 4, 5];
+```
 
 ## Chapter 4 - Operators
 
@@ -104,7 +107,10 @@ Please read [this page about arrays](https://www.w3schools.com/js/js_arrays.asp)
 
 One array property commonly used for arrays is `.length`, and as you might guess it allows us to access the number of items contained in the array.
 
-`const fruits = ['Banana', 'Apple', 'Lemon']; console.log(fruits.length); // will return the number of fruits`
+```
+const fruits = ['Banana', 'Apple', 'Lemon'];
+console.log(fruits.length); // will return the number of fruits
+```
 
 ### Array methods
 
@@ -126,14 +132,88 @@ Please read [this page on how to use arrays](https://www.w3schools.com/js/js_arr
 
 ## Chapter 7 - If condition
 
-## Chapter 8 - For loop
+Please [read this page about If statement](https://www.w3schools.com/js/js_if_else.asp).
 
-## Chapter 9 - Functions
+## Chapter 8 - Switch statement
 
-## Chapter 10 - Merge all this knowledge to create your own thing
+Please [read this page about Switch statement](https://www.w3schools.com/js/js_switch.asp).
+
+## Chapter 9 - For loop
+
+```
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+  }
+```
+
+## Chapter 10 - Functions
+
+Functions are used to reuse code, you define what the code should do once and use it as many times as needed with different arguments (parameters) to produce different results.
+
+A [good explanation about functions can be found here](https://www.w3schools.com/js/js_functions.asp), however please notice that the guide uses ES5 syntax. Check the following code examples to see how to use ES6 syntax.
+
+```
+const exampleFunctionWithoutParameters = () => {
+const result = 1;
+return result;
+};
+```
+
+```
+const exampleFunctionWithTwoNumberParameters = (
+firstParameter,
+secondParameter
+) => {
+return firstParameter + secondParameter;
+};
+```
+
+```
+const printTenTimes = () => {
+  for (let i = 0; i < 10; i++) {
+    console.log(i);
+  }
+};
+```
+
+## Chapter 11 - Merge all this knowledge to create your own thing
 
 This is an example that summarizes all the things we've been working on so far. Take it as a guideline to create your own set of scripts!
 
-`let products = [ { name: "chair", inventory: 5, unit_price: 45.99 }, { name: "table", inventory: 10, unit_price: 123.75 }, { name: "sofa", inventory: 2, unit_price: 399.50 } ]; function listProducts(prods) { let product_names = []; for (let i=0; i<prods.length; i+=1) { product_names.push(prods[i].name); } return product_names; } console.log(listProducts(products)); function totalValue(prods) { let inventory_value = 0; for (let i=0; i<prods.length; i+=1) { inventory_value += prods[i].inventory \* prods[i].unit_price; } return inventory_value; } console.log(totalValue(products));`
+```
+let products = [
+  {
+    name: "chair",
+    inventory: 5,
+    unit_price: 45.99
+  },
+  {
+    name: "table",
+    inventory: 10,
+    unit_price: 123.75
+  },
+  {
+    name: "sofa",
+    inventory: 2,
+    unit_price: 399.50
+  }
+];
+function listProducts(prods) {
+  let product_names = [];
+  for (let i=0; i<prods.length; i+=1) {
+   product_names.push(prods[i].name);
+  }
+  return product_names;
+}
+console.log(listProducts(products));
+function totalValue(prods) {
+  let inventory_value = 0;
+  for (let i=0; i<prods.length; i+=1) {
+    inventory_value += prods[i].inventory * prods[i].unit_price;
+  }
+  return inventory_value;
+}
+console.log(totalValue(products));
+```
 
-[Example code taken from teamtreehouse](https://teamtreehouse.com/library/create-an-array-of-objects).
+This [example code was taken from teamtreehouse](https://teamtreehouse.com/library/create-an-array-of-objects).
