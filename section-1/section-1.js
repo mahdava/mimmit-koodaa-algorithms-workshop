@@ -53,10 +53,26 @@
 
 //////////////////////////////////////////////////////////////////////////
 
-// Exercise 8: Create a string variable and determine if the value is either 'morning' 'afternoon' or 'evening'.
+// Exercise 8: Create a string variable and determine if the value is either 'morning' 'afternoon' or 'evening' with a switch statement.
 
 //////////////////////////////////////////////////////////////////////////
 
 // Exercise 9: Show 10 times the word 'Hello'
 
 //////////////////////////////////////////////////////////////////////////
+
+// Exercise 10a: Create a function that will sum two parameters
+
+// Exercise 10b: Create a function that takes an array as a parameter and displays all the elements in an array with their index number
+// Example:
+// const fruits = ['Banana', 'Apple', 'Lemon'];
+// const listItems= (items) => {
+//
+// }
+// console.log();
+// Expected output:
+// 0. Banana
+// 1. Apple
+// 2. Lemon
+
+// Exercise 10c: Create a function that finds the index of a given value in an array

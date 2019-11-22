@@ -4,6 +4,8 @@ To have a better experience throughout the workshop, we need you to be familiar 
 
 This section will go through the basics of JavaScript providing useful resources and will help you familiarize with the code syntax.
 
+Open the file section-1.js and start reading the exercises. If you can't figure out how to do the exercises even after reading the following resources, ask help to one of our coaches.
+
 ## Vocabulary
 
 **Expression:** An expression is any valid set of literals, variables, operators, and expressions that evaluates to a single value. The value may be a number, a string, or a logical value. [Read more about expressions here](http://lib.ru/JAVA/javascr/expr.html).  
