@@ -8,7 +8,7 @@ This section will go through the basics of JavaScript providing useful resources
 
 **Expression:**  
 **Value:**  
-**Operator:**
+**Operator:**  
 **Syntax:**  
 **Algorithm:**  
 **Data Structure:**
@@ -21,13 +21,15 @@ To familiarize with JavaScript syntax, please [read this page on how JavaScript 
 
 In JavaScript, you can comment code lines with `//` to comment one single line, and `/*` with `*/` to mark more than one line of code to comment.
 
-<code>// I'm a single commented line</code>
+`// I'm a single commented line
 
-<code>/\*  
-and multiple lines like this  
-and multiple lines like this  
-and multiple lines like this  
-\*/</code>
+```
+/*
+and multiple lines like this
+and multiple lines like this
+and multiple lines like this
+*/
+```
 
 It's useful to comment code when you are testing different things and want to see different outcomes, as well as when you want to add a description about what your code does.
 
@@ -42,27 +44,27 @@ Let's learn about console.log() and first, what's the [Chrome devtools console](
 
 While we're using Code Sandbox, we can open the in-built console tab!
 
-<code>console.log("Hi, this is a console log message");</code>
+`console.log("Hi, this is a console log message");`
 
-You can also write direct statements in the console log, such as <code>2+2</code>.
+You can also write direct statements in the console log, such as `2+2`.
 
 The console allows you to also test arbitrary code that is not written within the page:
 
 **JavaScript ES5**  
-<code>function multiplyNumbers(x, y) { return x \* y; }</code>
+`function multiplyNumbers(x, y) { return x \* y; }`
 
 **JavaScript ES6**  
-<code>const multiplyNumbersES6 = (x, y) => { return x \* y; };</code>
+`const multiplyNumbersES6 = (x, y) => { return x \* y; };`
 
 Note: ES6 syntax works only in the actual Chrome Dev tools console, but that's the better way to write code, as ES5 lacks few good features.
 
 Write/Copy the following function inside the console (without comments delimiters):
 
-<code>function multiplyNumbers(x, y) { return x \* y; }</code>
+`function multiplyNumbers(x, y) { return x \* y; }`
 
 The console will return a message **undefined** because the entered code didn't generate any value to display, but if you now type
 
-<code>multiplyNumbers(2, 3)</code>
+`multiplyNumbers(2, 3)`
 
 the console will reply with 6.
 
@@ -88,10 +90,7 @@ anything else
 
 If you are familiar with another programming language, or if you have time and feel curious, I suggest reading [this article about JavaScript variable declarations and scope](https://blog.pragmatists.com/let-your-javascript-variables-be-constant-1633e56a948d) to familiarize with variable scope and better understand the difference between the old `var`, `const` and `let`. For the sake of this workshop, you mainly need to know that you can declare variables with `const`and `let` keywords - feel free to ask to a coach about the differences between the two.
 
-<code>const onePoundInKg = 0,453592;  
-let apples = 10;
-const applesStack = [1, 4, 5];
-</code>
+`const onePoundInKg = 0,453592; let apples = 10; const applesStack = [1, 4, 5];`
 
 ## Chapter 4 - Operators
 
@@ -105,9 +104,7 @@ Please read [this page about arrays](https://www.w3schools.com/js/js_arrays.asp)
 
 One array property commonly used for arrays is `.length`, and as you might guess it allows us to access the number of items contained in the array.
 
-<code>const fruits = ['Banana', 'Apple', 'Lemon'];
-console.log(fruits.length); // will return the number of fruits
-</code>
+`const fruits = ['Banana', 'Apple', 'Lemon']; console.log(fruits.length); // will return the number of fruits`
 
 ### Array methods
 
@@ -137,38 +134,6 @@ Please read [this page on how to use arrays](https://www.w3schools.com/js/js_arr
 
 This is an example that summarizes all the things we've been working on so far. Take it as a guideline to create your own set of scripts!
 
-<code>let products = [
-{
-name: "chair",
-inventory: 5,
-unit_price: 45.99
-},
-{
-name: "table",
-inventory: 10,
-unit_price: 123.75
-},
-{
-name: "sofa",
-inventory: 2,
-unit_price: 399.50
-}
-];  
-function listProducts(prods) {  
-let product_names = [];  
-for (let i=0; i<prods.length; i+=1) {  
-product_names.push(prods[i].name);  
-}  
-return product_names;  
-}  
-console.log(listProducts(products));  
-function totalValue(prods) {  
-let inventory_value = 0;  
-for (let i=0; i<prods.length; i+=1) {  
-inventory_value += prods[i].inventory \* prods[i].unit_price;  
-}  
-return inventory_value;  
-}  
-console.log(totalValue(products));</code>
+`let products = [ { name: "chair", inventory: 5, unit_price: 45.99 }, { name: "table", inventory: 10, unit_price: 123.75 }, { name: "sofa", inventory: 2, unit_price: 399.50 } ]; function listProducts(prods) { let product_names = []; for (let i=0; i<prods.length; i+=1) { product_names.push(prods[i].name); } return product_names; } console.log(listProducts(products)); function totalValue(prods) { let inventory_value = 0; for (let i=0; i<prods.length; i+=1) { inventory_value += prods[i].inventory \* prods[i].unit_price; } return inventory_value; } console.log(totalValue(products));`
 
 [Example code taken from teamtreehouse](https://teamtreehouse.com/library/create-an-array-of-objects).
