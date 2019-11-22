@@ -8,7 +8,7 @@ Some understanding of the concepts (maybe with another programming language) is 
 
 The material includes short introductions, examples and simple exercises, that will familiarise you with JavaScript's syntax and the way the language works. We will not cover everything or go through every little detail and quirk of the language (which there are plenty of!).
 
-Start by opening the file section-1.js and read the exercises. If you can't figure out how to do the exercises even after reading the following resources, ask help from one of our coaches or other workshop participants.
+Start by opening the file exercises.js in this folder and read the exercises. If you can't figure out how to do the exercises even after reading the following resources, ask help from one of our coaches or other workshop participants.
 
 ---
 
