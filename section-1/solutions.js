@@ -1,8 +1,8 @@
 // Exercise 1: Uncomment the following lines of code cmd + k + u
 
-// document.write(
-//   "Yay! If you can see this in the preview, please comment me again! cmd + k + c."
-// );
+DOCUMENT.WRITE(
+  "YAY! IF YOU CAN SEE THIS IN THE PREVIEW, PLEASE COMMENT ME AGAIN! CMD + K + C."
+);
 
 //////////////////////////////////////////////////////////////////////////
 
@@ -10,19 +10,43 @@
 
 //////////////////////////////////////////////////////////////////////////
 
-// Exercise 2: Write a console.log() statement
+// Exercise 2: Write a console.log() statement and have it print your name
+
+console.log("My name");
 
 //////////////////////////////////////////////////////////////////////////
 
-// Exercise 3a: Write variables using either let or const for the following data types:
+// Exercise 3a: Write variables using either let or const for the following data types: string, number, boolean
+
+let someString = "text here";
+
+const numberOfWeekdays = 7;
+
+let isThereCoffee = true;
 
 // Exercise 3b: Write a string variable using const and display its value with console.log()
+
+const myFavouritePokemon = "Bulbasaur";
+
+console.log(myFavouritePokemon);
 
 //////////////////////////////////////////////////////////////////////////
 
 // Exercise 4a: Sum two number variables, display the result with console.log()
 
+const a = 2;
+
+const b = 8;
+
+console.log(a+b);
+
 // Exercise 4b: Concatenate two strings variables together, display the result with console.log()
+
+const firstWord = "Futu";
+
+const secondWord = "rice";
+
+console.log(firstWord.concat(secondWord));
 
 //////////////////////////////////////////////////////////////////////////
 

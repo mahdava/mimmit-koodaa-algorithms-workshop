@@ -10,11 +10,11 @@
 
 //////////////////////////////////////////////////////////////////////////
 
-// Exercise 2: Write a console.log() statement
+// Exercise 2: Write a console.log() statement and have it print your name
 
 //////////////////////////////////////////////////////////////////////////
 
-// Exercise 3a: Write variables using either let or const for the following data types:
+// Exercise 3a: Write variables using either let or const for the following data types: string, number, boolean 
 
 // Exercise 3b: Write a string variable using const and display its value with console.log()
 
