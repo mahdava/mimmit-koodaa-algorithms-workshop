@@ -1,3 +1,5 @@
+PS: read this page better straight from GitHub: https://github.com/mahdava/mimmit-koodaa-algorithms-workshop/tree/master/section-2
+
 # Basics of data structures and algorithms
 
 For an extra [overview of this section about data structures and algorithms, check quarian's repository](https://github.com/quarian/mimmit-koodaa-trak-beginner). His repository includes also some valuable tests - for some of these exercises - to check that your logic is correct.
