@@ -160,7 +160,7 @@ An assignment operator assigns a value to its left operand based on the value of
 | operator | description |
 | -------- | ----------- |
 | `&&`     | logical and |
-| `||`     | logical or  |
+| `\|\|`     | logical or  |
 | `!`      | logical not |
 
 You can read more on [this page about operations in JavaScript](https://www.w3schools.com/js/js_operators.asp).
