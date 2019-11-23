@@ -1,8 +1,8 @@
 // Exercise 1: Uncomment the following lines of code cmd + k + u
 
 // document.write(
-//   "Yay! If you can see this in the preview, please comment me again! cmd + k + c."
-// );
+//     "YAY! IF YOU CAN SEE THIS IN THE PREVIEW, PLEASE COMMENT ME AGAIN! CMD + K + C."
+//   );
 
 //////////////////////////////////////////////////////////////////////////
 
@@ -14,7 +14,7 @@
 
 //////////////////////////////////////////////////////////////////////////
 
-// Exercise 3a: Write variables using either let or const for the following data types: string, number, boolean 
+// Exercise 3a: Write variables using either let or const for the following data types: string, number, boolean
 
 // Exercise 3b: Write a string variable using const and display its value with console.log()
 
@@ -33,6 +33,8 @@
 // Exercise 5c: Add a person to the people array with the method .push(), and do the same for their age
 
 // Exercise 5d: Write a custom more verbose version of the method .push()
+
+// Steps: count the number of items you already have, add a new item in the next available index position
 
 // Exercise 5e: Use the pop() method to remove and read the last element for both the people and age arrays
 
@@ -74,5 +76,3 @@
 // 0. Banana
 // 1. Apple
 // 2. Lemon
-
-// Exercise 10c: Create a function that finds the index of a given value in an array
