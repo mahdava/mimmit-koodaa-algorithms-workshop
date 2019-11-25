@@ -8,4 +8,4 @@ If you are not sure about JavaScript syntax or if you have never coded before, w
 This is, for the most, the material we had throughout the first workshop. If you are familiar with JavaScript and you want to warm up for the advanced part of the workshop, please come here! 
 
 ## Part 3 - Pathfinding
-[The pathfinding algorithm code of our awesome Tero](http://bit.ly/mk-pathfinding) can be found on this other istance of CodeSandbox. [Tero has also made some steps](https://codesandbox.io/s/mk-extras-77grm) that can guide you to work with the previous CodeSandbox and be more hands-on with advanced algorithms for graphs.
+[The pathfinding algorithm code of our awesome Tero](http://bit.ly/mk-pathfinding) can be found on this other istance of CodeSandbox. [Here you can find a zip file with some rough steps](https://github.com/mahdava/mimmit-koodaa-algorithms-workshop/blob/master/mk-extras.zip) that can guide you to work with the previous CodeSandbox and be more hands-on with advanced algorithms for graphs.
